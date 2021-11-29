@@ -3,7 +3,7 @@
 #
 # prepare data
 #
-
+. "${ONE_PIPELINE_PATH}/tools/get_repo_params"
 INVENTORY="$(get_env inventory-repo)"
 
 APP_REPO="$(load_repo app-repo url)"
