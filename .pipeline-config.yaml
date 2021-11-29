@@ -82,7 +82,7 @@ acceptance-test:
 
 release:
   abort_on_failure: false
-  image: icr.io/continuous-delivery/toolchains/devsecops/compliance-baseimage:2.26.1@sha256:a780174a64474187b01b5e40a1721d8307f02897ac6f3eba2d482d4f4926edf1
+  image: wcp-cd-noncontainerised-team-cd-non-container-base-docker-local.artifactory.swg-devops.com/compliance-baseimage:multi-git1
   script: |
     #!/usr/bin/env bash
 
